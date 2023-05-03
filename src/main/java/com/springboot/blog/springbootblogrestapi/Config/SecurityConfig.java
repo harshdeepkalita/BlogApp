@@ -49,19 +49,4 @@ public class SecurityConfig {
         // all users can use the get method apis and other method apis are secured.
     }
 
-//    @Bean
-//    public UserDetailsService userDetailsService(){
-//        UserDetails ramesh = User.builder()
-//                .username("harsh")
-//                .password(passwordEncoder().encode("harsh"))
-//                .roles("USER")
-//                .build();
-//
-//        UserDetails admin = User.builder()
-//                .username("admin")
-//                .password(passwordEncoder().encode("admin"))
-//                .roles("ADMIN")
-//                .build();
-//        return new InMemoryUserDetailsManager(harsh, admin);
-//    }
 }
